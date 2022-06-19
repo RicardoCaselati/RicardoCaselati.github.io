@@ -1,0 +1,29 @@
+* {
+  font-family: ' poppins ', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url(./images/bg_1.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#title {
+  color:whitesmoke;
+  font-weight: 600;
+}
+
+.bg {
+  background-color:whitesmoke;
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.ball {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}

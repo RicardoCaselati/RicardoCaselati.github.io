@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Pixels Art</title>
+</head>
+
+<body>
+  <div class="container bg">
+    <h1 class="text-center" id="title">Pixels Art</h1>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-8 col-md-5 align-items-center">
+
+        <section class="row justify-content-center mx-auto mb-3" id="color-palette">
+          <div class="color black selected"></div>
+          <div class="color shuffle"></div>
+          <div class="color shuffle"></div>
+          <div class="color shuffle"></div>
+        </section>
+
+
+s
+
+
+        <section class="row justify-content-center mx-auto mb-5 painel">
+
+
+
+          <!-- <div class="flex-wrap input-group mb-3 mx-5 justify-content-center"> -->
+
+            <input class="form-control" type="number" placeholder="adicione um valor para a board"
+              aria-label="adicione um valor para a board" aria-describedby="addon-wrapping" id="board-size" min="1" style="width:300px">
+
+            <button class="gy-2 btn btn-success align-self-center mx-2" type="button" id="generate-board" onclick="getInputValue()" style="width:60px">VQV</button>
+
+            <button class="gy-2 btn btn-danger" type="button" id="clear-board" onclick="location.reload();" style="width:80px;">Limpar</button>
+
+          </div>
+
+
+
+        </section>
+
+        <section id="pixel-board">
+
+        </section>
+
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

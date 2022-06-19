@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <!-- Icon -->
+  <script src="https://kit.fontawesome.com/917f034554.js" crossorigin="anonymous"></script>
+
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+  <script src="lenguageScript.js" defer></script>
+  <script src="activeNav.js" defer></script>
+  <link href="style.css" text="text/css" rel="stylesheet">
+
+  <meta name="author" content="Ricardo Caselati" />
+  <meta name="keywords" content="portfólio, programação, html, css, javascript" />
+  <meta name="decription" content="este é um portfólio do programador Ricardo Caselati" />
+
+  <title>Portfólio: Ricardo Caselati</title>
+</head>
+
+<body>
+  <header class="container-fluid position-fixed" style="z-index:999">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" style="text-align: center;" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-md-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#principal">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio-1">Projetos Acadêmicos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio-2">Projetos Profissionais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades Técnicas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quem-sou">Quem sou eu?</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#dica">Dica de Conteúdo</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Fale Comigo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="cotainer-fluid main" id="principal">
+    <div class="row g-0">
+      <div class="overlay"></div>
+      <div class="row justify-content-center align-items-center escopofrases">
+        <div class="col-12 col-md-9 align-self-end fraseprincipal">
+          <h1>"...Não se trata de bater duro, se trata de quanto você aguenta apanhar e seguir em frente. O quanto você
+            é capaz de aguentar e continuar tentando."</h1>
+        </div>
+        <div class="col-10 col-md-8 align-self-start assinatura">
+          <p>Sylvester Stallone no filme Rocky Balboa (2006)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO ACADÊMICO-->
+  <section class="container portfolio borderButton" id="portfolio-1">
+    <div class="portfolio-details">
+      <h2 class="tit_sessao">Projetos Acadêmicos</h2>
+      <div class="container">
+        <div class="portfolio-content">
+          <div class="isotope ">
+            <div class="row justify-content-center">
+
+              <div class="col-sm-4">
+                <a href="./projetos-portfolio/sd-022-b-project-trybewarts/index.html" target="_blanck">
+                  <div class="item">
+                    <img src="/images/port_acad_1.png" alt="portfolio image" />
+                    <div class="isotope-overlay">
+                      <p class="title_port">TRYBEWARTS</p>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="./projetos-portfolio/sd-022-b-project-color-guess/index.html" target="_blanck">
+                  <div class="item">
+                    <img src="/images/port_acad_2.png" alt="portfolio image" />
+                    <div class="isotope-overlay">
+                      <p class="title_port">COLOR GUESS</p>
+                    </div>
+                  </div>
+                </a>
+              </div><!-- /.col -->
+
+              <div class="col-sm-4 align-self-stretch">
+                <a href="./projetos-portfolio/sd-022-b-project-pixels-art/index.html" target="_blanck">
+                  <div class="item">
+                    <img id="strech-image" src="/images/port_acad_3.png" alt="portfolio image" />
+                    <div class="isotope-overlay">
+                      <p class="title_port">Pixels Art</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-sm-4">
+                <a href="./projetos-portfolio/sd-022-b-project-meme-generator/index.html" target="_blanck">
+                  <div class="item">
+                    <img src="/images/port_acad_4.png" alt="portfolio image" />
+                    <div class="isotope-overlay">
+                      <p class="title_port">Meme Generator</p>
+                    </div><!-- /.isotope-overlay -->
+                  </div><!-- /.item -->
+                </a>
+                <a href="./projetos-portfolio/sd-022-b-project-shopping-cart/index.html" target="_blanck">
+                  <div class="item">
+                    <img src="/images/port_acad_5.png" alt="portfolio image" />
+                    <div class="isotope-overlay">
+                      <p class="title_port">TRYBE SHOPPING</p>
+                    </div><!-- /.isotope-overlay -->
+                  </div><!-- /.item -->
+                </a>
+              </div><!-- /.col -->
+            </div><!-- /.row -->
+          </div>
+          <!--/.isotope-->
+        </div>
+        <!--/.gallery-content-->
+      </div>
+      <!--/.container-->
+    </div>
+    <!--/.portfolio-details-->
+
+  </section>
+  <!--/.portfolio-->
+  <!--academic portfolio end -->
+
+  <!-- PORTFOLIO PROFISSIONAL-->
+  <section class="container portfolio borderButton" id="portfolio-2">
+    <div class="portfolio-details">
+      <h2 class="tit_sessao">Projetos Profissionais</h2>
+      <div class="container">
+        <div class="portfolio-content">
+          <div class="isotope">
+            <div class="row justify-content-center">
+
+              <div class="col-sm-4">
+                <a href="http://agenciarcx.com/" target="_blanck">
+                  <div class="item">
+                    <img src="/images/port_pro_1.jpg" alt="portfolio image" />
+                    <div class="isotope-overlay">
+                      <p class="title_port">AGÊNCIA RCX</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="./projetos-portfolio/site_lidera/index.php" target="_blanck">
+                  <div class="item">
+                    <img src="/images/port_pro_2.jpg" alt="portfolio image" />
+                    <div class="isotope-overlay">
+                      <p class="title_port">LIDERASKILLS</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- <div class="col-sm-4">
+                <div class="item">
+                  <img src="/images/port_pro_3.jpg" alt="portfolio image" />
+                  <div class="isotope-overlay">
+                    <a href="#">
+                      web design
+                    </a>
+                  </div>
+                </div>
+              </div> -->
+
+              <div class="col-sm-4 align-self-center">
+                <a href="./projetos-portfolio/site_wellington/index.html" target="_blanck">
+                  <div class="item">
+                    <img src="/images/port_pro_3.jpg" alt="portfolio image" />
+                    <div class="isotope-overlay">
+                      <p class="title_port">PSIC. WELLINGTON ARRUDA</p>
+                    </div>
+                  </div>
+                </a>
+                <!-- <div class="item">
+                  <img src="assets/images/portfolio/p5.jpg" alt="portfolio image" />
+                  <div class="isotope-overlay">
+                    <a href="#">
+                      web development
+                    </a>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES TÉCNICAS -->
+  <section class="container habilidades borderButton" id="habilidades">
+    <h1 class="tit_sessao">Habilidades Técnicas</h1>
+    <span class="row justify-content-center text-center g-0 marginbottom">
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-3 mx-1 my-1 icon" style="color: #e04b25">
+          <i class="fa-brands fa-html5"></i>
+          <p class="paragrafo">HTML</p>
+        </div>
+        <div class="col-6 col-sm-3 mx-1 my-1 icon" style="color: #264de4">
+          <i class="fa-brands fa-css3-alt"></i>
+          <p class="paragrafo">CSS</p>
+        </div>
+        <div class="col-6 col-sm-3 mx-1 my-1 icon" style="color: #ecd74f">
+          <i class="fa-brands fa-js-square"></i>
+          <p class="paragrafo">JavaScript</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-3 mx-1 my-1 icon" style="color: #712cf9">
+          <i class="fa-brands fa-bootstrap"></i>
+          <p class="paragrafo">Bootstrap</p>
+        </div>
+        <div class="col-6 col-sm-3 mx-1 my-1 icon" style="color: #09d9fe">
+          <i class="fa-brands fa-react"></i>
+          <p class="paragrafo">React</p>
+        </div>
+        <div class="col-6 col-sm-3 mx-1 my-1 icon" style="color: #09d9fe">
+          <span class="iconify" data-icon="logos:jest"></span>
+          <p class="paragrafo">Jest</p>
+        </div>
+      </div>
+    </span>
+
+  </section>
+
+  <!-- <section class="cotainer dica" id="dica">
+    <h1 class="tit_sessao">Dica de Conteúdo</h1>
+    <p class="paragrafo padding">Geralmente costumo buscar conteúdo nos seguintes meios de comunicação:</p>
+    <div class="row justify-content-center g-0">
+      <div class="col-7 col-md-3 gy-4">
+        <a href="https://www.edivaldobrito.com.br/">
+          <div class="row justify-content-center logo_dica">
+            <img src="./images/logo_dica1.png" />
+          </div>
+          <div class="row justify-content-center nome_dica">
+            <h3>Blog do Edivaldo</h3>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-8 col-md-3 gy-4">
+        <a href="https://www.youtube.com/c/Programadorbr">
+          <div class="row justify-content-center logo_dica">
+            <img src="./images/logo_dica2.png" />
+          </div>
+          <div class="row justify-content-center nome_dica">
+            <h3>Canal Programador BR</h3>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-8 col-md-3 gy-4">
+        <a href="https://www.youtube.com/c/LucasMontano">
+          <div class="row justify-content-center logo_dica">
+            <img src="./images/logo_dica3.jpg" />
+          </div>
+          <div class="row justify-content-center nome_dica">
+            <h3>Canal Lucas Montano</h3>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-8 col-md-3 gy-4" style="padding-bottom: 41px">
+        <a href="https://www.youtube.com/c/FilipeDeschamps">
+          <div class="row justify-content-center logo_dica">
+            <img src="./images/logo_dica4.png" />
+          </div>
+          <div class="row justify-content-center nome_dica">
+            <h3>Canal Filipe Deschamps</h3>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section> -->
+
+  <section class="container quem_sou borderButton" id="quem-sou">
+    <h1 class="tit_sessao">Quem sou eu?</h1>
+    <div class="row justify-content-center align-items-start g-0">
+      <div class="col-6 col-md-5 mb-2">
+        <div class="row justify-content-center">
+          <div class="foto_quem" alt="foto Ricardo Caselati" src=""></div>
+        </div>
+        <div class="row justify-content-center">
+          <h1 class="nome">Ricardo Caselati</h1>
+        </div>
+      </div>
+      <div class="col-10 col-md-5">
+        <p class="paragrafo">
+          Ricardo Caselati é brasileiro, nascido em São Paulo-SP, atualmente residente em Maringá-PR é formado em
+          Comunicação Social - Habilitação em Rádio, TV e Vídeo pela FIAMFAAM - FMU.
+          Apaixonado por comunicação, tecnologia e sempre muito curioso por saber como as "coisas funcionam", em 2020
+          decide
+          unir seu conhecimento de comunicação com a tecnologia fundando a Agência RCX (nome registrado em 2021), com a
+          intenção
+          de ajudar autônomos, pequenos e médios empresários a se destacarem no meio digital. Neste momento surge uma
+          nova
+          paixão, a <strong>programação</strong>.
+          <br>
+          <br>
+          Então, em 2021, Ricardo Caselati participou do processo seletivo da <strong><a style="text-decoration: none;"
+              href="https://www.betrybe.com/">Trybe</a></strong> com mais de 18 mil
+          participantes e finalmente em 2022 é selecionado para a turma 22 para o curso de Programação Web.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container contato" id="contato">
+    <h1 class="tit_sessao">Fale Comigo</h1>
+    <p class="paragrafo padding">Entre em contato comigo! Será um prazer conversar com você!</p>
+    <!-- <a class="logo_whatsapp"
+      href="https://api.whatsapp.com/send?phone=5511987224054&text=Ol%C3%A1%2C%20seja%20muito%20bem%20vindo%20%C3%A0%20Ag%C3%AAncia%20RCX!"><img
+        style="width: 10%;" src="./images/whatsapp_logo.png" /></a> -->
+    <a href="mailto:contato@agenciarcx.com" class="btn mb-5">e-mail</a>
+  </section>
+
+  <div class="container-fluid footer">
+    <footer class="d-flex flex-column flex-wrap justify-content-between align-items-center py-3">
+      <p class="col-md-4 mb-0 txt text-center">Site desenvolvido por Ricardo
+        Caselati©</p>
+      <p class="col-md-4 mb-0 txt text-center">Todos os direitos reservados.</p>
+
+
+
+      <div class="col-md-8 d-flex justify-content-center align-items-center" id="buttondiv">
+        <div  class="mx-2 mt-2 g-0 p-0 botao">
+          <img class="cursorpointer" id="english" src="./images/flag-of-United-States-of-America.png" style="width:60px;" target="_self">
+          <p class="col-md-4 mb-0 txt text-center">English</p>
+        </div>
+
+        <div class="mx-2 mt-2 g-0 p-0 botao">
+          <img id="portuguese" class="cursorpointer" src="./images/flag-of-Brazil.png" style="width:60px;" target="_self">
+          <p class="col-md-4 mb-0 txt text-center">Portuguese</p>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-8 d-flex align-items-center justify-content-end mb-3 mb-md-0 logo_footer">
+        <a href="#principal">
+          <img src="./images/simbolo_rc.jpg" />
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
