@@ -1,0 +1,45 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url('./images/background.png');
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.principalTitle{
+  font-weight: 700;
+  font-size: 60px;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+.title {
+  padding-top:30px;
+  font-weight: 500;
+  color: whitesmoke;
+  letter-spacing: 1px;
+}
+
+.txt-content{
+  font-weight: 400;
+  color: whitesmoke;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.planetsImage {
+  width: 50%;
+}
+
+.card{
+  padding: 10px;
+  border:2px solid #dddd;
+  border-radius: 18px;
+  width: 160px;
+  background: none;
+}
